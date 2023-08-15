@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "LPE_Shenanigans",
+    "version": "1.0",
+    "description": "Landing page experiments Lab",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": ["*://stag.dazn.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
